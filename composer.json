@@ -1,0 +1,17 @@
+{
+    "name": "odelibalta/data-structures",
+    "description": "Data structres in PHP",
+    "type": "library",
+    "authors": [
+        {
+            "name": "ODelibalta",
+            "email": "okandelibalta@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Code\\": "Code/"
+        }
+    },
+    "require": {}
+}
