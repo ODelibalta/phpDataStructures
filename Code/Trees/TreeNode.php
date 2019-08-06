@@ -4,11 +4,21 @@ namespace Code\Tree;
 
 class TreeNode
 { 
+    /**
+     * Binary tree
+     *
+     * @var TreeNode
+     */
+    public $data = null; 
 
-    public $data = NULL; 
+    /**
+     * Tree leafs
+     *
+     * @var TreeNode
+     */
     public $children = []; 
 
-    public function __construct(string $data = NULL)
+    public function __construct(string $data = null)
     { 
       $this->data = $data; 
     } 
